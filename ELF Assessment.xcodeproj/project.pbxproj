@@ -34,28 +34,52 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				README.md,
+				"Tests/ELF AssessmentTests/ELF_AssessmentTests.swift",
+				"Tests/ELF AssessmentTests/Mock/MockRepoService.swift",
+				"Tests/ELF AssessmentUITests/ELF_AssessmentUITests.swift",
+				"Tests/ELF AssessmentUITests/ELF_AssessmentUITestsLaunchTests.swift",
 			);
 			target = 49D1E0002F8922B1003647F4 /* ELF Assessment */;
 		};
+		49D6C90C2F896B430051EB70 /* Exceptions for "ELF Assessment" folder in "ELF AssessmentTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Tests/ELF AssessmentTests/ELF_AssessmentTests.swift",
+				"Tests/ELF AssessmentTests/Mock/MockRepoService.swift",
+			);
+			target = 49D1E0162F8922B3003647F4 /* ELF AssessmentTests */;
+		};
+		49D6C90D2F896B430051EB70 /* Exceptions for "ELF Assessment" folder in "ELF AssessmentUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Tests/ELF AssessmentUITests/ELF_AssessmentUITests.swift",
+				"Tests/ELF AssessmentUITests/ELF_AssessmentUITestsLaunchTests.swift",
+			);
+			target = 49D1E0202F8922B3003647F4 /* ELF AssessmentUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		49A9F8AB2F8940CF0065F743 /* Exceptions for "ELF Assessment" folder in "Compile Sources" phase from "ELF Assessment" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 49D1DFFD2F8922B1003647F4 /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		49D1E0032F8922B1003647F4 /* ELF Assessment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				49D1E0292F8922B3003647F4 /* Exceptions for "ELF Assessment" folder in "ELF Assessment" target */,
+				49A9F8AB2F8940CF0065F743 /* Exceptions for "ELF Assessment" folder in "Compile Sources" phase from "ELF Assessment" target */,
+				49D6C90C2F896B430051EB70 /* Exceptions for "ELF Assessment" folder in "ELF AssessmentTests" target */,
+				49D6C90D2F896B430051EB70 /* Exceptions for "ELF Assessment" folder in "ELF AssessmentUITests" target */,
 			);
 			path = "ELF Assessment";
-			sourceTree = "<group>";
-		};
-		49D1E01A2F8922B3003647F4 /* ELF AssessmentTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ELF AssessmentTests";
-			sourceTree = "<group>";
-		};
-		49D1E0242F8922B3003647F4 /* ELF AssessmentUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ELF AssessmentUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,8 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				49D1E0032F8922B1003647F4 /* ELF Assessment */,
-				49D1E01A2F8922B3003647F4 /* ELF AssessmentTests */,
-				49D1E0242F8922B3003647F4 /* ELF AssessmentUITests */,
 				49D1E0022F8922B1003647F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +165,6 @@
 			dependencies = (
 				49D1E0192F8922B3003647F4 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				49D1E01A2F8922B3003647F4 /* ELF AssessmentTests */,
-			);
 			name = "ELF AssessmentTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +184,6 @@
 			);
 			dependencies = (
 				49D1E0232F8922B3003647F4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				49D1E0242F8922B3003647F4 /* ELF AssessmentUITests */,
 			);
 			name = "ELF AssessmentUITests";
 			packageProductDependencies = (
